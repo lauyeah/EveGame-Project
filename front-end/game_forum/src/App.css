@@ -1,0 +1,141 @@
+.main-content {
+    font-size: 1.1rem;
+}
+
+.header-wrapper {
+    padding: 16px 20px;
+    margin: 0;
+}
+
+.logo {
+    width: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.evegame-text {
+    width: 110px;
+}
+
+.evegame-logo {
+    width: 40px;
+}
+
+.mail-icon,
+.noti-icon {
+    font-size: 24px;
+    height: 40px;
+    width: 40px;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-post,
+.search-input {
+    border-radius: 20px;
+}
+
+
+.evegame-text .text-sub {
+    font-size: 0.6rem;
+}
+
+.evegame-text .text-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.footer-body-card .card-title {
+    font-weight: bold;
+}
+
+.footer-body-card .card-text {
+    margin: 0;
+    border: 0;
+}
+
+.footer-body-card .card-body {
+    white-space: nowrap;
+}
+
+.footer-footer-card {
+    font-size: 0.8rem;
+}
+
+.card-body {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@media (max-width: 767px) {
+    .new-post-item .card-text:nth-of-type(1) {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .second-pin-post .card-text:nth-of-type(2) {
+        display: none;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: blue;
+}
+
+.footer-wrapper a:hover {
+    color: inherit;
+}
+
+.pined-post .card-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    /* number of lines to show */
+    line-clamp: 7;
+    -webkit-box-orient: vertical;
+}
+
+.newest-post .card-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* number of lines to show */
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.topic-post .card-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    /* number of lines to show */
+    line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+
+.login-form .card-text,
+.reg-form .card-text,
+.reset-pwd-form .card-text {
+    font-size: 1rem;
+}
+
+.login-form .card,
+.reg-form .card,
+.reset-pwd-form .card {
+    width: 640px;
+}
